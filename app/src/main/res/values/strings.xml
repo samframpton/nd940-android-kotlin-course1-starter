@@ -16,4 +16,10 @@
     <string name="instruction_title">Instructions</string>
     <string name="instruction_text">Press the button to add shoes</string>
     <string name="instruction_next">Next</string>
+
+    <!-- ShoeListFragment -->
+    <string name="add_new_shoe">Add new shoe</string>
+    <string name="shoe_company_format">Company: %s</string>
+    <string name="shoe_size_format">Size: %.1f</string>
+    <string name="shoe_description_format">Description: %s</string>
 </resources>
