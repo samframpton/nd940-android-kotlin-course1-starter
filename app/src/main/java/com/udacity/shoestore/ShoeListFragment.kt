@@ -32,7 +32,8 @@ class ShoeListFragment : Fragment() {
 
     private fun addShoes(shoes: ArrayList<Shoe>, shoeListView: ViewGroup) {
         if (shoes.isEmpty()) {
-            layoutInflater.inflate(R.layout.item_instructions, shoeListView)
+            DataBindingUtil.inflate<ItemShoeBinding>(
+                layoutInflater, R.layout.item_instructions, shoeListView, true)
             return
         }
         for (shoe in shoes) {
