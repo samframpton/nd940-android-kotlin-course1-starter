@@ -2,32 +2,40 @@
     <string name="app_name">ShoeStore</string>
 
     <!-- LoginFragment -->
+    <string name="login_fragment_label">Login</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="login">Login</string>
     <string name="new_account">New Account</string>
 
     <!-- WelcomeFragment -->
+    <string name="welcome_fragment_label">Welcome</string>
     <string name="welcome_title">Welcome</string>
     <string name="welcome_text">Shoe Store Inventory App</string>
     <string name="welcome_next">Next</string>
 
     <!-- InstructionFragment -->
+    <string name="instruction_fragment_label">Instructions</string>
     <string name="instruction_title">Instructions</string>
     <string name="instruction_text">Press the button to add shoes</string>
     <string name="instruction_next">Next</string>
 
     <!-- ShoeListFragment -->
+    <string name="shoe_list_fragment_label">Shoe Inventory</string>
     <string name="add_new_shoe">Add new shoe</string>
     <string name="shoe_company_format">Company: %s</string>
     <string name="shoe_size_format">Size: %.1f</string>
     <string name="shoe_description_format">Description: %s</string>
 
     <!-- ShoeDetailFragment -->
+    <string name="shoe_detail_fragment_label">Add New Shoe</string>
     <string name="shoe_detail_name">Shoe name</string>
     <string name="shoe_detail_company">Company</string>
     <string name="shoe_detail_size">Size</string>
     <string name="shoe_detail_description">Description</string>
     <string name="shoe_detail_save">Save</string>
     <string name="shoe_detail_cancel">Cancel</string>
+
+    <!-- Logout Menu -->
+    <string name="logout">Logout</string>
 </resources>
