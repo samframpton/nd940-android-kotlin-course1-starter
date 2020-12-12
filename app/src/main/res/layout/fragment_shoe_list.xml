@@ -12,6 +12,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+            <!-- A vertical LinearLayout is used here as it will contain a vertical list of -->
+            <!-- shoes which can be easily inserted programmatically. A ConstraintLayout would -->
+            <!-- be a poor choice here, but a RecyclerView would be ideal. -->
             <LinearLayout
                 android:id="@+id/linear_layout_shoes"
                 android:layout_width="match_parent"

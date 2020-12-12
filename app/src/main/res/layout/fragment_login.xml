@@ -4,6 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".LoginFragment">
 
+    <!-- ConstraintLayout is used here because it allows the child views to be easily placed -->
+    <!-- into a grouping which is centered both horizontally and vertically. This is done using -->
+    <!-- a packed vertical chain. Using a LinearLayout here would required nesting layouts. -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">

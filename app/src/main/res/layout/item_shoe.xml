@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <!-- A vertical LinearLayout is used here because the layout is a very simple vertical list -->
+    <!-- of TextViews which don't require any special positioning relative to each other. -->
+    <!-- A ConstraintLayout would be unnecessarily complicated. -->
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
