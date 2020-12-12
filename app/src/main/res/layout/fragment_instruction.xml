@@ -9,14 +9,15 @@
         android:layout_height="match_parent">
 
         <TextView
-            android:id="@+id/text_view_instruction_title"
+            android:id="@+id/text_view_instruction_1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/margin_horizontal"
             android:layout_marginEnd="@dimen/margin_horizontal"
             android:layout_marginBottom="@dimen/margin_vertical_large"
-            android:text="@string/instruction_title"
-            app:layout_constraintBottom_toTopOf="@+id/text_view_instruction_text"
+            android:text="@string/instruction_1"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/text_view_instruction_2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
@@ -24,19 +25,52 @@
             app:layout_constraintVertical_chainStyle="packed" />
 
         <TextView
-            android:id="@+id/text_view_instruction_text"
+            android:id="@+id/text_view_instruction_2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/margin_horizontal"
             android:layout_marginTop="@dimen/margin_vertical_large"
             android:layout_marginEnd="@dimen/margin_horizontal"
             android:layout_marginBottom="@dimen/margin_vertical_large"
-            android:text="@string/instruction_text"
+            android:text="@string/instruction_2"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/text_view_instruction_3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_instruction_1" />
+
+        <TextView
+            android:id="@+id/text_view_instruction_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_horizontal"
+            android:layout_marginTop="@dimen/margin_vertical_large"
+            android:layout_marginEnd="@dimen/margin_horizontal"
+            android:layout_marginBottom="@dimen/margin_vertical_large"
+            android:text="@string/instruction_3"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/text_view_instruction_4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_instruction_2" />
+
+        <TextView
+            android:id="@+id/text_view_instruction_4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_horizontal"
+            android:layout_marginTop="@dimen/margin_vertical_large"
+            android:layout_marginEnd="@dimen/margin_horizontal"
+            android:layout_marginBottom="@dimen/margin_vertical_large"
+            android:text="@string/instruction_4"
+            android:textSize="16sp"
             app:layout_constraintBottom_toTopOf="@+id/button_instruction_next"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text_view_instruction_title" />
+            app:layout_constraintTop_toBottomOf="@+id/text_view_instruction_3" />
 
         <Button
             android:id="@+id/button_instruction_next"
@@ -46,12 +80,12 @@
             android:layout_marginStart="@dimen/margin_horizontal"
             android:layout_marginTop="@dimen/margin_vertical_large"
             android:layout_marginEnd="@dimen/margin_horizontal"
-            android:text="@string/instruction_next"
+            android:text="@string/instruction_next_button"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text_view_instruction_text" />
+            app:layout_constraintTop_toBottomOf="@+id/text_view_instruction_4" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

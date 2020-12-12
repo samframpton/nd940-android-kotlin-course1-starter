@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="@dimen/margin_horizontal"
+    android:layout_marginTop="@dimen/margin_vertical_large"
+    android:layout_marginEnd="@dimen/margin_horizontal"
+    android:text="@string/shoe_list_instructions"
+    android:textSize="16sp" />

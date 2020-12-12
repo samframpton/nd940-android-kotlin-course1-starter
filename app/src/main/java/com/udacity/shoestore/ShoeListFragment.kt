@@ -31,14 +31,19 @@ class ShoeListFragment : Fragment() {
     }
 
     private fun addShoes(shoes: ArrayList<Shoe>, shoeListView: ViewGroup) {
+        if (shoes.isEmpty()) {
+            layoutInflater.inflate(R.layout.item_instructions, shoeListView)
+            return
+        }
         for (shoe in shoes) {
             val binding: ItemShoeBinding = DataBindingUtil.inflate(
                 layoutInflater, R.layout.item_shoe, shoeListView, true)
             binding.textViewShoeName.text = shoe.name
-            binding.textViewShoeCompany.text = getString(R.string.shoe_company_format, shoe.company)
-            binding.textViewShoeSize.text = getString(R.string.shoe_size_format, shoe.size)
+            binding.textViewShoeCompany.text =
+                getString(R.string.shoe_list_company_format, shoe.company)
+            binding.textViewShoeSize.text = getString(R.string.shoe_list_size_format, shoe.size)
             binding.textViewShoeDescription.text =
-                getString(R.string.shoe_description_format, shoe.description)
+                getString(R.string.shoe_list_description_format, shoe.description)
         }
     }
 
